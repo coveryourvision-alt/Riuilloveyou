@@ -26,7 +26,7 @@ const Envelope: React.FC = () => {
               <div className="absolute top-0 left-0 w-full h-1/2 bg-pink-200 clip-path-envelope-flap" />
               <span className="text-4xl">✉️</span>
             </div>
-            <p className="font-bold text-pink-400">to my homie</p>
+            <p className="font-bold text-pink-400">to my homie 🍁</p>
           </motion.div>
         ) : (
           <motion.div
@@ -40,7 +40,7 @@ const Envelope: React.FC = () => {
             </div>
             <div className="paper-texture flex-1 rounded-2xl p-6 shadow-md border-t-8 border-pink-400 overflow-y-auto no-scrollbar relative">
               <div className="flex flex-col gap-4 text-pink-800 leading-relaxed text-sm italic">
-                <p className="text-lg not-italic font-bold text-pink-500 mb-2">to my homie,</p>
+                <p className="text-lg not-italic font-bold text-pink-500 mb-2">to my homie 🍁,</p>
                 <p>
                   i just wanted to write this little note to tell you how much you mean to me. from the laughs to the quiet moments, being with you is the highlight of every single day.
                 </p>
@@ -48,9 +48,9 @@ const Envelope: React.FC = () => {
                   you're more than just my partner; you're my best friend, my rock, and my absolute favorite person in this whole world. 
                 </p>
                 <p>
-                  thanks for being you. i'm the luckiest person to have you by my side.
+                  thanks for being you. i'm the lucky person to have you by my side.
                 </p>
-                <p className="mt-4 text-right not-italic font-bold text-pink-500">with all my love, <br/>from your homie 💗</p>
+                <p className="mt-4 text-right not-italic font-bold text-pink-500">with all my love, <br/>from your homie 🍁 💗</p>
               </div>
               <div className="absolute bottom-4 right-4 text-3xl opacity-20 rotate-12">💖</div>
             </div>
